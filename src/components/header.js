@@ -1,6 +1,6 @@
 import React from 'react'
-import bootstrap from 'bootstrap'
 import logo from './../images/UTKARSH_logo.png';
+import './../styles/header.css';
 
 import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
 
@@ -12,8 +12,8 @@ const Header = () => {
                 <a class="navbar-brand" href="#">
                     <img src={logo} alt="error" style={{height:'44px', width: '70px'}} />
                 </a>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse justify-content-end " id="navbarNavDropdown">
+                    <ul class="navbar-nav justify-content-around">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="/">Home</a>
                         </li>
@@ -31,8 +31,8 @@ const Header = () => {
                                 Organization Work
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Login</a></li>
-                                <li><a class="dropdown-item" href="#">Upcomming Event/Activity</a></li>
+                                <li><Link class="dropdown-item" to="/login">Login</Link></li>
+                                <li><a class="dropdown-item" href="#">Upcomming Event</a></li>
                             </ul>
                         </li>
                     </ul>
