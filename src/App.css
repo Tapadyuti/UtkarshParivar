@@ -1,3 +1,10 @@
 .h-fit-content{
     height: fit-content;
 }
+
+form{
+    border: 2px solid lightskyblue;
+    border-radius: 13px;
+    padding: 2vw;
+    display: inline-block;
+}
