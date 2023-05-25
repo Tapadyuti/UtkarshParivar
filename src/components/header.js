@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from './../assets/images/UTKARSH_logo.png';
+//import logo from './../assets/images/UTKARSH_logo.png';
 import './../styles/header.css';
 
 import { Link } from 'react-router-dom';
@@ -7,13 +7,16 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-expand-md navbar-light bg-light">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="/">
-                        <img src={logo} alt="error" style={{ height: '44px', width: '70px' }} />
+                    <a className="navbar-brand" href="/"  >
+                        <img src='./assets/images/UTKARSH_logo.png' alt="error" style={{width: '80px' }} />
                     </a>
-                    <div className="collapse navbar-collapse justify-content-end " id="navbarNavDropdown">
-                        <ul className="navbar-nav justify-content-around">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse justify-content-lg-end justify-content-md-end " id="navbarSupportedContent">
+                        <ul className="navbar-nav ">
                             <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="/">Home</a>
                             </li>
@@ -27,7 +30,7 @@ const Header = () => {
                                 <Link className="nav-link" to="/contact-us">Contact US</Link>
                             </li>
                             <li className="nav-item">
-                               {/*  <a className="nav-link" href="/login" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                {/*  <a className="nav-link" href="/login" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Organization Work
                                 </a> */}
                                 <Link className="nav-link" to="/login">Organization Work</Link>

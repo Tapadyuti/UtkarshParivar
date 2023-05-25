@@ -3,9 +3,10 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/home";
 import ContactUs from "./components/contactus";
-import Gallery from "./components/gallery";
 import Donate from "./components/donate";
 import Login from "./components/login";
+import GalleryView from "./components/gallery";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -15,13 +16,14 @@ function App() {
         <Routes>
             {/* <Route path="blogs" element={<Blogs />} /> */}
             <Route exact path="/contact-us" element={<ContactUs />} />
-            <Route exact path="/gallery" element={<Gallery />} />
+            <Route exact path="/gallery" element={<GalleryView />} />
             <Route exact path="/donate" element={<Donate />} />
             <Route exact path="/login" element={<Login />} />
             <Route path="*" element={<Home />}>
           </Route>
         </Routes>
       </Router>
+      <Footer />
     </div>
   );
 }

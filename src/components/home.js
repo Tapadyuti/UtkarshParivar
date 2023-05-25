@@ -1,8 +1,15 @@
-import React from 'react'
-
+import React from 'react';
+import Banner from './features/banner';
+import CardHorizontal from './features/cardHorizontal';
+import { homeCards } from '../modals/horizontalCard';
 const Home = () => {
+
   return (
-    <div>Home</div>
+    <div>
+      {/* <Banner /> */}
+      {homeCards.map((item, index)=> <CardHorizontal card={item} />)}
+      
+    </div>
   )
 }
 

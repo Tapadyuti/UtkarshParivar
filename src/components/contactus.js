@@ -1,6 +1,6 @@
 import React from 'react'
-import hello_cow from './../assets/images/hello_cow.png';
-import angul from './../assets/images/map/angul.png';
+//import hello_cow from './../assets/images/hello_cow.png';
+//import angul from './../assets/images/map/angul.png';
 
 
 const ContactUs = () => {
@@ -8,11 +8,11 @@ const ContactUs = () => {
         <div className='d-flex flex-xxl-row  flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column  m-4'>
             <div className='col-12 col-xl-8 col-lg-8 col-md-8 col-sm-12 p-2 d-flex justify-content-center'>
                 <div className='col-6'>
-                    <img src={hello_cow} alt='hello' className='w-75 h-fit-content' />
+                    <img src='./assets/images/hello_cow.png' alt='hello' className='w-75 h-fit-content' />
                 </div>
                 <div className='col-6'>
                     <div>Meet Us</div>
-                    <img src={angul} className='w-100 mb-3' style={{ borderRadius: '1vw', boxShadow: '5px 5px #85a8d3' }} />
+                    <img src='./assets/images/map/angul.png' className='w-100 mb-3' style={{ borderRadius: '1vw', boxShadow: '5px 5px #85a8d3' }} />
                     <div className='mb-3'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                             <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />

@@ -12,3 +12,8 @@ form{
 .form-control{
     font-size: .75em;
 }
+
+.card-title{
+    background-color: blueviolet;
+    color: #ffffff;
+}
