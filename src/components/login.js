@@ -4,30 +4,30 @@ import './../styles/login.css';
 const Login = () => {
   return (
     <section>
-        <div class="form-box">
-            <div class="form-value">
+        <div className="form-box">
+            <div className="form-value">
                 <form action="">
                     <h2>Login</h2>
-                    <div class="inputbox">
+                    <div className="inputbox">
                         <ion-icon name="mail-outline"></ion-icon>
                         <input type="email" required />
-                        <label for="">Email</label>
+                        <label htmlFor="">Enter User ID</label>
                     </div>
-                    <div class="inputbox">
+                    <div className="inputbox">
                         <ion-icon name="lock-closed-outline"></ion-icon>
                         <input type="password" required />
-                        <label for="">Password</label>
+                        <label htmlFor="">Password</label>
                     </div>
-                    <div class="forget">
-                        <label for="">
+                    {/* <div className="forget">
+                        <label htmlFor="" />
                         <input type="checkbox"/>Remember Me
                         <a href="#">Forget Password</a></label>
 
-                    </div>
+                    </div> */}
                     <button>Log in</button>
-                    <div class="register">
-                        <p>Don't have a account <a href="#">Register</a></p>
-                    </div>
+                    {/* <div className="register">
+                        <p>Don't have a account <a href="#/">Register</a></p>
+                    </div> */}
                 </form>
             </div>
         </div>
