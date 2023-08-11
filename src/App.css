@@ -1,0 +1,19 @@
+.h-fit-content{
+    height: fit-content;
+}
+
+form{
+    border: 2px solid lightskyblue;
+    border-radius: 13px;
+    padding: 2vw;
+    display: inline-block;
+    font-size: .85em !important;
+}
+.form-control{
+    font-size: .75em;
+}
+
+.card-title{
+    background-color: blueviolet;
+    color: #ffffff;
+}
