@@ -12,8 +12,8 @@ const Header = () => {
                     <a className="navbar-brand" href="/"  >
                         <img src='./assets/images/UTKARSH_logo.png' alt="error" style={{width: '80px' }} />
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse justify-content-lg-end justify-content-md-end " id="navbarSupportedContent">
                         <ul className="navbar-nav ">
