@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/www.utkarshparivar.org.in/static/css/main.dc91204a.css",
-    "main.js": "/www.utkarshparivar.org.in/static/js/main.09a20543.js",
+    "main.js": "/www.utkarshparivar.org.in/static/js/main.87ab7665.js",
     "static/js/787.0b664bbb.chunk.js": "/www.utkarshparivar.org.in/static/js/787.0b664bbb.chunk.js",
     "index.html": "/www.utkarshparivar.org.in/index.html",
     "main.dc91204a.css.map": "/www.utkarshparivar.org.in/static/css/main.dc91204a.css.map",
-    "main.09a20543.js.map": "/www.utkarshparivar.org.in/static/js/main.09a20543.js.map",
+    "main.87ab7665.js.map": "/www.utkarshparivar.org.in/static/js/main.87ab7665.js.map",
     "787.0b664bbb.chunk.js.map": "/www.utkarshparivar.org.in/static/js/787.0b664bbb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc91204a.css",
-    "static/js/main.09a20543.js"
+    "static/js/main.87ab7665.js"
   ]
 }
