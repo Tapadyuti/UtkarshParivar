@@ -8,7 +8,7 @@ const ContactUs = () => {
 
 
     return (
-        <div className='d-flex flex-xxl-row  flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column  m-4'>
+        <div className='contact-us d-flex flex-xxl-row  flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column  m-4'>
             <div className='col-12 col-xl-8 col-lg-8 col-md-8 col-sm-12 p-2 d-flex justify-content-center'>
                 <div className='col-6'>
                     <img src='./assets/images/hello_cow.png' alt='hello' className='w-75 h-fit-content' />
@@ -70,6 +70,7 @@ const ContactUs = () => {
                     <button type="submit" className="btn btn-primary float-end" onClick={sendEmail}>Submit</button>
                 </form>
             </div>
+            <div className='wave'></div>
         </div>
     )
 }
