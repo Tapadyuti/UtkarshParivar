@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/UtkarshParivarBuild/static/css/main.dc91204a.css",
-    "main.js": "/UtkarshParivarBuild/static/js/main.7e7e8725.js",
+    "main.js": "/UtkarshParivarBuild/static/js/main.d6fed595.js",
     "static/js/787.0b664bbb.chunk.js": "/UtkarshParivarBuild/static/js/787.0b664bbb.chunk.js",
     "index.html": "/UtkarshParivarBuild/index.html",
     "main.dc91204a.css.map": "/UtkarshParivarBuild/static/css/main.dc91204a.css.map",
-    "main.7e7e8725.js.map": "/UtkarshParivarBuild/static/js/main.7e7e8725.js.map",
+    "main.d6fed595.js.map": "/UtkarshParivarBuild/static/js/main.d6fed595.js.map",
     "787.0b664bbb.chunk.js.map": "/UtkarshParivarBuild/static/js/787.0b664bbb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc91204a.css",
-    "static/js/main.7e7e8725.js"
+    "static/js/main.d6fed595.js"
   ]
 }
