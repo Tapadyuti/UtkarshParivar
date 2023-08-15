@@ -1,7 +1,4 @@
 import React from 'react'
-//import hello_cow from './../assets/images/hello_cow.png';
-//import angul from './../assets/images/map/angul.png';
-
 
 const ContactUs = () => {
     return (

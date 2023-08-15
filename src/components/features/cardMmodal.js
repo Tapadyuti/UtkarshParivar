@@ -6,7 +6,7 @@ const CardHModal = (props) => {
 <button type="button" className="btn text-white w-auto" style={{backgroundColor: '#ae67c5'}} data-bs-toggle="modal" data-bs-target={"#"+ props.modal.modalTitle.split(' ').join('')}>
   {props.modal.modalButtonName}
 </button>
-<div className="modal fade" id={props.modal.modalTitle.split(' ').join('')} tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div className="modal fade" id={props.modal.modalTitle.split(' ').join('')} tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div className="modal-dialog modal-dialog-scrollable modal-dialog-centered">
     <div className="modal-content">
       <div className="modal-header text-white" style={{backgroundColor: 'blueviolet'}}>

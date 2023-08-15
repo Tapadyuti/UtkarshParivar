@@ -9,8 +9,8 @@ const Header = () => {
         <>
             <nav className="navbar navbar-expand-lg navbar-expand-md navbar-light bg-light">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="/UtkarshParivarBuild"  >
-                        <img src='./assets/images/UTKARSH_logo.png' alt="error" style={{width: '80px' }} />
+                    <a className="navbar-brand" href="/"  >
+                        <img src='./../assets/images/UTKARSH_logo.png' alt="error" style={{width: '80px' }} />
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -18,7 +18,7 @@ const Header = () => {
                     <div className="collapse navbar-collapse justify-content-lg-end justify-content-md-end " id="navbarSupportedContent">
                         <ul className="navbar-nav ">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/UtkarshParivarBuild">Home</a>
+                                <a className="nav-link active" aria-current="page" href="/">Home</a>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/gallery">Gallery</Link>
