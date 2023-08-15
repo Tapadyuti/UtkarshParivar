@@ -1,19 +1,37 @@
-.h-fit-content{
+.h-fit-content {
     height: fit-content;
 }
 
-form{
+form {
     border: 2px solid lightskyblue;
     border-radius: 13px;
     padding: 2vw;
     display: inline-block;
     font-size: .85em !important;
 }
-.form-control{
+
+.form-control {
     font-size: .75em;
 }
 
-.card-title{
+.card-title {
     background-color: blueviolet;
     color: #ffffff;
+}
+
+.nav-link {
+    color: #7e03b3;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #7e03b3;
+}
+
+.utkViolet {
+    color: #7e03b3;
+}
+
+.card-title {
+    border-top-right-radius: 5px;
 }

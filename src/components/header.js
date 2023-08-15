@@ -7,10 +7,11 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-expand-md navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-expand-md navbar-light bg-light pb-0">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="/"  >
+                    <a className="navbar-brand p-0 d-flex align-items-center" href="/"  >
                         <img src='./../assets/images/UTKARSH_logo.png' alt="error" style={{width: '80px' }} />
+                        <span className='utkViolet'><h2>UTKARSH PARIVAR</h2></span>
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
