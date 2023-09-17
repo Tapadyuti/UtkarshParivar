@@ -19,7 +19,7 @@ function App() {
             <Route exact path="/gallery" element={<GalleryView />} />
             <Route exact path="/donate" element={<Donate />} />
             <Route exact path="/login" element={<Login />} />
-            <Route path="/" element={<Home />} />
+            <Route path="*" element={<Home />} />
             {/* <Route path="*" element={<Home />} /> */}
         </Routes>
       </Router>
