@@ -4,6 +4,8 @@
 name: Node.js Package
 
 on:
+  push:
+    branches: -main
   release:
     types: [created]
 
@@ -15,6 +17,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Install Dependency
+        run: npm install
+      - name: Build Project
+        run: npm run build
+      - name: Build to github pages
+        uses: Tapadyuti/UtkarshParivarBuild@3      
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist
       - run: npm ci
       - run: npm test
 
