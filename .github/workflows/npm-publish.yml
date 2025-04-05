@@ -22,7 +22,7 @@ jobs:
       - name: Build Project
         run: npm run build
       - name: Build to github pages
-        uses: Tapadyuti/UtkarshParivarBuild@3      
+        uses: Tapadyuti/UtkarshParivarBuild@0.1.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist
